@@ -1,0 +1,16 @@
+h1 {
+	color: rgba(0,200,100, 0.8);
+
+	border: 8px dashed rgb(255,100,80);
+}
+
+h4 {
+	background: rgb(255,100,80) ;
+}
+
+body {
+	background:pink;
+/*	background: url(https://img.favpng.com/2/3/14/paper-wood-grain-drawing-pattern-png-favpng-9XPtUCw81Frr4UtUX9NPwkSZs.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
