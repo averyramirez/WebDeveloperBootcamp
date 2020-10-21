@@ -21,8 +21,8 @@
 //     console.log(x + y)
 // }
 
-function rant(message.toUpperCase) {
-    console.log()
-    console.log()
-    console.log()
+function rant(message) {
+    console.log(`${message.toUpperCase()}`)
+    console.log(`${message.toUpperCase()}`)
+    console.log(`${message.toUpperCase()}`)
 }
