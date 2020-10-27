@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://i.imgur.com/Dex63dQ.png");
+    background-repeat: repeat;
+}
+
+nav .navbar-nav .nav-link,
+nav .navbar-brand {
+   color: white;
+   float: none;
+   vertical-align: top;
+   font-family: 'Staatliches', cursive;
+   font-size: 40px;
+   text-shadow: 2px 2px green;
+   letter-spacing: 4px;
+}
+
+nav .navbar-toggler {
+    color: white;
+    float: none;
+    vertical-align: top;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px green;
+    letter-spacing: 5px;
+}
+
+h1 {
+    vertical-align: top;
+    font-family: 'Staatliches', cursive;
+    font-size: 60px;
+    color: white;    
+    text-shadow: 2px 2px green;
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+    text-shadow: 1px 1px green;
+    font-size: 20px;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.container-fluid {
+    margin: 150px 0px 150px 150px;
+    font-size: 30px;
+}
+
