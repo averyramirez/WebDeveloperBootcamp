@@ -9,9 +9,9 @@ nav .navbar-brand {
    float: none;
    vertical-align: top;
    font-family: 'Staatliches', cursive;
-   font-size: 40px;
+   font-size: 45px;
    text-shadow: 2px 2px green;
-   letter-spacing: 4px;
+   letter-spacing: 8px;
 }
 
 nav .navbar-toggler {
@@ -21,7 +21,6 @@ nav .navbar-toggler {
     font-family: 'Staatliches', cursive;
     font-size: 30px;
     text-shadow: 2px 2px green;
-    letter-spacing: 5px;
 }
 
 h1 {
@@ -35,17 +34,15 @@ h1 {
 }
 
 p {
-    font-family: 'Nanum Gothic', sans-serif;
-    text-shadow: 1px 1px green;
+    font-family: 'Abel', sans-serif;
+    color: white;
     font-size: 20px;
 }
 
-.content {
-    margin-top: 100px;
-}
-
 .container-fluid {
-    margin: 150px 0px 150px 150px;
-    font-size: 30px;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
 }
 
