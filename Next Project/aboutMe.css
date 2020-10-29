@@ -1,48 +1,56 @@
 body {
-    background-image: url("https://i.imgur.com/Dex63dQ.png");
-    background-repeat: repeat;
+    background-image: url("https://images.unsplash.com/photo-1553289038-6638b1a1802a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+    background-size: cover;
 }
 
 nav .navbar-nav .nav-link,
-nav .navbar-brand {
+nav .navbar-brand, .nav-item {
    color: white;
    float: none;
    vertical-align: top;
    font-family: 'Staatliches', cursive;
    font-size: 45px;
-   text-shadow: 2px 2px green;
+   text-shadow: 2px 2px #00b38f;
    letter-spacing: 8px;
 }
 
-nav .navbar-toggler {
+/* nav .navbar-toggler {
     color: white;
     float: none;
     vertical-align: top;
     font-family: 'Staatliches', cursive;
     font-size: 30px;
-    text-shadow: 2px 2px green;
-}
+    text-shadow: 2px 2px #00b38f;
+} */
 
 h1 {
     vertical-align: top;
     font-family: 'Staatliches', cursive;
     font-size: 60px;
     color: white;    
-    text-shadow: 2px 2px green;
+    text-shadow: 2px 2px #00b38f;
     font-weight: 200;
     letter-spacing: 4px;
 }
 
 p {
-    font-family: 'Abel', sans-serif;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 200;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
 }
 
 .container-fluid {
-    padding-top: 150px;
-    padding-left: 100px;
+    padding-top: 100px;
+    /* padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 100px; */
 }
 
+h2 {
+    font-family: 'Staatliches', cursive;
+    color: white;
+    text-shadow: 2px 2px #00b38f;
+    letter-spacing: 3px;
+}
