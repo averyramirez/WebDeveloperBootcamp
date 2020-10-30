@@ -12,6 +12,8 @@ nav .navbar-brand, .nav-item {
    font-size: 45px;
    text-shadow: 2px 2px #00b38f;
    letter-spacing: 8px;
+   padding-left: 80px;
+   padding-right: 80px;
 }
 
 /* nav .navbar-toggler {
@@ -56,6 +58,9 @@ h2 {
 }
 
 .card {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Saira Condensed', sans-serif;
 }
