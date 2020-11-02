@@ -1,7 +1,26 @@
 body {
-    background-image: url("https://images.unsplash.com/photo-1545383541-325a7082c04e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-image: url("https://images.unsplash.com/photo-1465788786008-f75a725b34e9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
     background-size: cover;
 }
+
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+
+#bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
 
 nav .navbar-nav .nav-link,
 nav .navbar-brand, .nav-item {
@@ -12,18 +31,10 @@ nav .navbar-brand, .nav-item {
    font-size: 45px;
    text-shadow: 2px 2px orange;
    letter-spacing: 8px;
-   /* padding-left: 80px;
-   padding-right: 80px; */
+   justify-content: center;
 }
 
-/* nav .navbar-toggler {
-    color: white;
-    float: none;
-    vertical-align: top;
-    font-family: 'Staatliches', cursive;
-    font-size: 30px;
-    text-shadow: 2px 2px #00b38f;
-} */
+
 
 h1 {
     vertical-align: top;
@@ -54,13 +65,7 @@ h2 {
 }
 
 .card {
-    /* margin-right: 100px;
-    margin-left: 100px;
-    margin-bottom: 10px;
-    margin-top: 10px; */
     font-family: 'Saira Condensed', sans-serif;
     background-color: black;
     color: white;
-    padding-right: 10px;
-    padding-left: 10px;
 }
