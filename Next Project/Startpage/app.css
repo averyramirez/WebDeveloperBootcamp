@@ -9,15 +9,52 @@ body {
 
 
 .jumbotron{
-    opacity: 0.5;
     margin-left: 400px;
     margin-right: 400px;
-    margin-top: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:rgba(0,0,0,0.4);
+    font-family: 'Roboto', sans-serif;
   }
+
   
-  .jumbo_text {
+.jumbo_text {
     color: black;
+    opacity: 1;
+    font-family: 'Roboto', sans-serif;
   }
+
+
+.p-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:rgba(0,0,0,0.4);
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    height: 260px;
+    width: 360px;
+}
+
+.p-3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color:rgba(0,0,0,0.4);
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    height: 280px;
+    width: 550px;
+}
+
+
+
+@media (max-width: 600px) {
+    .jumbotron {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 25px;
+    }
+}
 
 
 
