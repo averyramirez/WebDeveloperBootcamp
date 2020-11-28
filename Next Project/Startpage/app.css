@@ -15,6 +15,7 @@ body {
     margin-bottom: 20px;
     background-color:rgba(0,0,0,0.4);
     font-family: 'Roboto', sans-serif;
+    height: 200px;
   }
 
   
@@ -31,7 +32,7 @@ body {
     background-color:rgba(0,0,0,0.4);
     font-family: 'Roboto', sans-serif;
     border-radius: 5px;
-    height: 260px;
+    height: 360px;
     width: 360px;
 }
 
@@ -42,13 +43,13 @@ body {
     background-color:rgba(0,0,0,0.4);
     font-family: 'Roboto', sans-serif;
     border-radius: 5px;
-    height: 280px;
+    height: 290px;
     width: 550px;
 }
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .jumbotron {
         margin-left: 10px;
         margin-right: 10px;
